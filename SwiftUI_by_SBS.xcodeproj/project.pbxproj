@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9136FF38281E7076005438F4 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9136FF37281E7076005438F4 /* HomeScreen.swift */; };
+		9136FF3A281EAF9A005438F4 /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9136FF39281EAF9A005438F4 /* DetailScreen.swift */; };
+		91662FC728187041002A72FC /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91662FC528187041002A72FC /* PlayfairDisplay-Bold.ttf */; };
+		91662FC828187041002A72FC /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91662FC528187041002A72FC /* PlayfairDisplay-Bold.ttf */; };
+		91662FC928187041002A72FC /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91662FC628187041002A72FC /* PlayfairDisplay-Regular.ttf */; };
+		91662FCA28187041002A72FC /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91662FC628187041002A72FC /* PlayfairDisplay-Regular.ttf */; };
 		91965C372811DDD10053F79C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91965C362811DDD10053F79C /* Tests_iOS.swift */; };
 		91965C392811DDD10053F79C /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91965C382811DDD10053F79C /* Tests_iOSLaunchTests.swift */; };
 		91965C432811DDD10053F79C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91965C422811DDD10053F79C /* Tests_macOS.swift */; };
@@ -37,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9136FF37281E7076005438F4 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		9136FF39281EAF9A005438F4 /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		91662FC528187041002A72FC /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		91662FC628187041002A72FC /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
 		91965C1E2811DDCE0053F79C /* SwiftUI_by_SBSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_by_SBSApp.swift; sourceTree = "<group>"; };
 		91965C1F2811DDCE0053F79C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		91965C202811DDD10053F79C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -83,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91662FC428187041002A72FC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				91662FC528187041002A72FC /* PlayfairDisplay-Bold.ttf */,
+				91662FC628187041002A72FC /* PlayfairDisplay-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		91965C182811DDCE0053F79C = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +118,10 @@
 			children = (
 				91965C1E2811DDCE0053F79C /* SwiftUI_by_SBSApp.swift */,
 				91965C1F2811DDCE0053F79C /* ContentView.swift */,
+				91662FC428187041002A72FC /* Fonts */,
 				91965C202811DDD10053F79C /* Assets.xcassets */,
+				9136FF37281E7076005438F4 /* HomeScreen.swift */,
+				9136FF39281EAF9A005438F4 /* DetailScreen.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -266,7 +288,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91662FC728187041002A72FC /* PlayfairDisplay-Bold.ttf in Resources */,
 				91965C4A2811DDD10053F79C /* Assets.xcassets in Resources */,
+				91662FC928187041002A72FC /* PlayfairDisplay-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +298,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91662FC828187041002A72FC /* PlayfairDisplay-Bold.ttf in Resources */,
 				91965C4B2811DDD10053F79C /* Assets.xcassets in Resources */,
+				91662FCA28187041002A72FC /* PlayfairDisplay-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,8 +325,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9136FF3A281EAF9A005438F4 /* DetailScreen.swift in Sources */,
 				91965C482811DDD10053F79C /* ContentView.swift in Sources */,
 				91965C462811DDD10053F79C /* SwiftUI_by_SBSApp.swift in Sources */,
+				9136FF38281E7076005438F4 /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +493,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NHPQMMT47;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -494,6 +523,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NHPQMMT47;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -526,6 +556,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NHPQMMT47;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -552,6 +583,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NHPQMMT47;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";

@@ -1,4 +1,7 @@
+
 # FurnitureAppUI
+
+![Simulator Screen Recording - iPhone 13 Pro Max - 2022-05-09 at 14 30 36](https://user-images.githubusercontent.com/15675290/167376795-49a33d29-7d88-461e-99c1-86e32459ce78.gif)
 
 ![Simulator Screen Shot - iPhone 13 Pro Max - 2022-05-09 at 14 24 54](https://user-images.githubusercontent.com/15675290/167375758-57a0387b-c488-433c-b0d5-2544d10d28e5.png)
 
